@@ -47,5 +47,8 @@ Future plans:
   Test behavior if errors are encountered due to:
     bad addresses
     inconsistent parsing
+    address with mulitple units, and no gas meter 
+      312,,Dunning,St,1,Madison
+      312,,Dunning,St,2,Madison
 
 ~~~~~~~~~~~~~~~
