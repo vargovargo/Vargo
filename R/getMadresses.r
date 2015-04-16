@@ -1,5 +1,5 @@
 
-setwd("~/Desktop/MGE/")
+setwd("~/Dropbox/Vargo (1)/data/")
 
 
 library(shapefiles)
@@ -28,5 +28,4 @@ names(MadParcels) <- c("hn","sd","sn","ss","au","c", "GIS_ID")
 
 test <- subset(MadParcels, sn == "WASHINGTON")
 
-write.csv(MadParcels,"../../Dropbox/Vargo (1)/Maddresses.csv", row.names=F, na='', quote=FALSE) 
-
+write.csv(MadParcels,"./Maddresses.csv", row.names=F, na='', quote=FALSE) 
